@@ -9,25 +9,97 @@
   Página Inicial
 */
 
-div{
-    text-align: center;
+.section-1{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 3%;         
 }
+
 .saudacao{
-    text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    margin: 180px 600px 5px 20px;
+    font-size: 43px;
     color: #354024;
+    text-align: left;
 }
 
 .saudacao-nome{
     display: inline-block;
-
     font-family: sans-serif;
     font-size: 70px;
     padding: 20px;
     border-radius: 10px;
-
     color: #E5D7C4;
-    background-color: #354024;
+    background-color: #889063;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
+
+.saudacao-nome:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+    padding: 0 10%;
+    background-color: #E5D7C4;
+}
+
+.foto{
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.foto:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* 
+  Formações
+*/
+
+.formacoes {
+    padding: 20px 20px 60px 20px;
+}
+
+.titulo-formacoes {
+    font-size: 42px;
+    margin-bottom: 50px;
+    color: #354024;
+}
+
+.caixa-formacoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.caixa {
+    font-family: sans-serif;
+    padding: 25px;
+    background-color: #889063;
+    color: #E5D7C4;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.caixa p {
+    margin-bottom: 8px;
+}
+
+.caixa:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* 
+  Habilidades
+*/
+
