@@ -123,3 +123,35 @@ main{
     margin-bottom: 25px;
     padding: 30px;
 }
+
+/* 
+  Planos para o Futuro
+*/
+
+.titulo-planos {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #354024;
+}
+
+.caixa-planos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* 
+  Passatempos
+*/
+
+.titulo-passatempos {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #354024;
+}
+
+.caixa-passatempos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
