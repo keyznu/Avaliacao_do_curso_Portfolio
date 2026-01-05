@@ -103,3 +103,23 @@ main{
   Habilidades
 */
 
+.titulo-habilidades {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #354024;
+}
+
+.caixa-habilidades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#caixa-1{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 30px;
+}
